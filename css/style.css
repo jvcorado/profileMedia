@@ -1,0 +1,20 @@
+@media (max-width:700px) {
+    .row{
+        width: 100% !important;
+    }
+}
+
+const variasClasses = document.querySelectorAll(".col-sm-5")
+
+    variasClasses.forEach(Element =>{
+        Element.classList.add('bg-success')
+       
+    })
+
+
+    const variasClasses = document.querySelectorAll(".col-sm-5")
+
+    variasClasses.forEach(Element =>{
+        Element.classList.remove('bg-success')
+       
+    })

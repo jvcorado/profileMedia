@@ -3,12 +3,13 @@ function dark(){
     document.querySelector("body").classList.remove('text-dark')
     document.querySelector("body").classList.add('bg-dark')
     document.querySelector("body").classList.add('text-white')
-    document.querySelector("img").remove
+    /*document.querySelector("img").remove
     document.querySelector('.container-fluid img').src="/profileMedia/img/jvLight2.jpeg"
-    /*document.querySelector("img").classList.add('border')
+    */
+    document.querySelector("img").classList.add('border')
     document.querySelector("img").classList.add('border-4')
     document.querySelector("img").classList.add('border-light')
-    */
+    
     const variasClasses = document.querySelectorAll(".col-sm-5")
     const link = document.querySelectorAll(".col-sm-5 a")
     
@@ -29,12 +30,13 @@ function dark(){
 function white(){
     document.querySelector("body").classList.remove('bg-dark')
     document.querySelector("body").classList.remove('text-white')
-    document.querySelector("img").remove
+    /*document.querySelector("img").remove
     document.querySelector('.container-fluid img').src="/profileMedia/img/jvDark.jpeg"
-    /*document.querySelector("img").classList.remove('border')
+    */
+    document.querySelector("img").classList.remove('border')
     document.querySelector("img").classList.remove('border-4')
     document.querySelector("img").classList.remove('border-light')
-    */
+
     document.querySelector("body").classList.add('bg-ligth')
     document.querySelector("body").classList.add('text-dark')
     const link = document.querySelectorAll(".col-sm-5 a")
